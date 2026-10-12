@@ -1,4 +1,4 @@
-from telegram.ext import Application, CommandHandler.
+from telegram.ext import Application, CommandHandler
 async def start(update, context):
 await update.message.reply_text("হ্যালো! আমি আপনার বট.")
 def main():

@@ -6,4 +6,4 @@ def main():
  application.add_handler(CommandHandler("start", start))
  application.run_polling()
 if __name__ == "__main__":
- main():
+ main()
